@@ -1,0 +1,274 @@
+// File Structure
+// 
+// character-poser-app/
+// ├── package.json
+// ├── vite.config.js
+// ├── tailwind.config.js
+// ├── postcss.config.js
+// ├── server.js
+// ├── index.html
+// └── src/
+//     ├── main.jsx
+//     ├── App.jsx
+//     └── components/
+//         ├── ModelViewer.jsx
+//         └── Controls.jsx
+
+// ------------------------
+// package.json
+// ------------------------
+{
+  "name": "character-poser-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vite build",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "three": "^0.158.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "dat.gui": "^0.7.9"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "@vitejs/plugin-react": "^3.1.0",
+    "tailwindcss": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  }
+}
+
+// ------------------------
+// vite.config.js
+// ------------------------
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  root: '.',
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
+  }
+});
+
+// ------------------------
+// tailwind.config.js
+// ------------------------
+module.exports = {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: { extend: {} },
+  plugins: [],
+};
+
+// ------------------------
+// postcss.config.js
+// ------------------------
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+};
+
+// ------------------------
+// index.html
+// ------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Character Poser App</title>
+  <link href="/dist/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <div id="root" class="h-screen flex"></div>
+  <script type="module" src="src/main.jsx"></script>
+</body>
+</html>
+
+// ------------------------
+// server.js
+// ------------------------
+import express from 'express';
+import path from 'path';
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+// serve static build and assets
+app.use(express.static(path.resolve(__dirname, 'dist')));
+app.use(express.static(path.resolve(__dirname, 'public')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
+});
+
+app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
+
+// ------------------------
+// src/main.jsx
+// ------------------------
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import './index.css';
+
+const container = document.getElementById('root');
+createRoot(container).render(<App />);
+
+// ------------------------
+// src/App.jsx
+// ------------------------
+import React, { useState } from 'react';
+import ModelViewer from './components/ModelViewer';
+import Controls from './components/Controls';
+
+export default function App() {
+  const [modelPath, setModelPath] = useState('/public/models/warrior.glb');
+  const [textureMap, setTextureMap] = useState({});
+  const [pose, setPose] = useState(null);
+
+  return (
+    <div className="flex h-full">
+      <aside className="w-80 p-4 bg-white shadow-lg z-10">
+        <Controls
+          modelPath={modelPath}
+          onModelChange={setModelPath}
+          onTextureChange={setTextureMap}
+          onPoseChange={setPose}
+        />
+      </aside>
+      <main className="flex-1">
+        <ModelViewer
+          modelPath={modelPath}
+          textureMap={textureMap}
+          pose={pose}
+        />
+      </main>
+    </div>
+  );
+}
+
+// ------------------------
+// src/components/ModelViewer.jsx
+// ------------------------
+import React, { useEffect, useRef } from 'react';
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+
+export default function ModelViewer({ modelPath, textureMap, pose }) {
+  const mountRef = useRef();
+
+  useEffect(() => {
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(50, mountRef.current.clientWidth / mountRef.current.clientHeight, 0.1, 1000);
+    camera.position.set(0, 1.5, 3);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(mountRef.current.clientWidth, mountRef.current.clientHeight);
+    mountRef.current.appendChild(renderer.domElement);
+
+    const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1);
+    const dirLight = new THREE.DirectionalLight(0xffffff, 1);
+    dirLight.position.set(5, 10, 7);
+    scene.add(hemiLight, dirLight);
+
+    const loader = new GLTFLoader();
+    let current;
+
+    const loadModel = () => {
+      if (current) scene.remove(current);
+      loader.load(modelPath, (gltf) => {
+        current = gltf.scene;
+        scene.add(current);
+        // apply textures
+        Object.entries(textureMap).forEach(([name, url]) => {
+          const mat = current.getObjectByName(name)?.material;
+          if (mat) {
+            new THREE.TextureLoader().load(url, tex => { mat.map = tex; mat.needsUpdate = true; });
+          }
+        });
+        // apply pose if any
+        if (pose) pose.bones.forEach(({ name, rotation }) => {
+          const bone = current.getObjectByProperty('type','SkinnedMesh').skeleton.getBoneByName(name);
+          bone.rotation.set(...rotation);
+        });
+      });
+    };
+
+    loadModel();
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    const animate = () => { requestAnimationFrame(animate); renderer.render(scene, camera); };
+    animate();
+
+    return () => { mountRef.current.removeChild(renderer.domElement); };
+  }, [modelPath, textureMap, pose]);
+
+  return <div ref={mountRef} className="w-full h-full" />;
+}
+
+// ------------------------
+// src/components/Controls.jsx
+// ------------------------
+import React from 'react';
+
+const availableModels = [
+  { name: 'Warrior', path: '/public/models/warrior.glb' },
+  { name: 'Mage',    path: '/public/models/mage.glb' },
+];
+const textureOptions = {
+  Helmet: ['/public/textures/metal_old.jpg','/public/textures/metal_new.jpg'],
+  Armor:  ['/public/textures/armor_leather.jpg','/public/textures/armor_chain.jpg']
+};
+const poses = [
+  { name: 'T-Pose', file: '/public/poses/tpose.json' },
+  { name: 'Salute', file: '/public/poses/salute.json' }
+];
+
+export default function Controls({ modelPath, onModelChange, onTextureChange, onPoseChange }) {
+  return (
+    <div className="space-y-4">
+      <div>
+        <label className="block font-semibold mb-1">Model:</label>
+        <select
+          className="w-full border rounded p-2"
+          value={modelPath}
+          onChange={e => onModelChange(e.target.value)}>
+          {availableModels.map(m => <option key={m.path} value={m.path}>{m.name}</option>)}
+        </select>
+      </div>
+
+      <div>
+        <label className="block font-semibold mb-1">Textures:</label>
+        {Object.entries(textureOptions).map(([part, urls]) => (
+          <select
+            key={part}
+            className="w-full border rounded mb-2 p-2"
+            onChange={e => onTextureChange(prev => ({ ...prev, [part]: e.target.value }))}>
+            <option value="">-- {part} --</option>
+            {urls.map(u => <option key={u} value={u}>{u.split('/').pop()}</option>)}
+          </select>
+        ))}
+      </div>
+
+      <div>
+        <label className="block font-semibold mb-1">Pose:</label>
+        <select
+          className="w-full border rounded p-2"
+          onChange={async e => onPoseChange(JSON.parse(await (await fetch(e.target.value)).text()))}>
+          <option value="">-- Select Pose --</option>
+          {poses.map(p => <option key={p.file} value={p.file}>{p.name}</option>)}
+        </select>
+      </div>
+    </div>
+  );
+}
