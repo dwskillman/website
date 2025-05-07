@@ -1,6 +1,7 @@
 
 ---
 title: "Lake Forest Dentist Near You | Saddleback Dental Associates"
+
 description: "Top-rated dental care near Lake Forest, CA. Cleanings, implants, root canals & more—just minutes away in Mission Viejo. Book your appointment today!"
 ---
 
