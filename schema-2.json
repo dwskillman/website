@@ -1,0 +1,953 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dentist",
+      "@id": "https://mymissionviejodental.com",
+      "name": "Saddleback Dental Associates",
+      "identifier": "https://mymissionviejodental.com",
+      "alternateName": [
+        "Saddleback Dental",
+        "Mission Viejo Dentist",
+        "Family Dentistry"
+      ],
+      "description": "Looking for a trusted dentist near you? Saddleback Dental in Mission Viejo offers gentle, expert care and advanced dental treatments for patients of all ages.",
+      "telephone": [
+        "(949) 457-0223"
+      ],
+      "url": "https://mymissionviejodental.com",
+      "hasMap": [
+        "https://www.google.com/maps/place/Saddleback+Dental+Associates/@33.6217897,-117.6871715,16z/data=!3m1!4b1!4m6!3m5!1s0x80dce908a38db115:0xe6944fb79e95ff06!8m2!3d33.6217897!4d-117.6845966!16s%2Fg%2F1tzzvtdv"
+      ],
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Visa, MC, Amex",
+      "additionalProperty": "https://en.wikipedia.org/wiki/Dentistry",
+      "priceRange": "$$$",
+      "openingHours": "Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 07:00-14:00",
+      "disambiguatingDescription": "Saddleback Dental in Mission Viejo offers comprehensive dental care including Invisalign, teeth cleaning, dental implants, wisdom teeth removal, veneers, and teeth whitening. Our offices are in Silverado Plaza, at the intersection of Jeronimo and Los Alisos across from Sonic.",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "postalCode": "92691",
+          "addressRegion": "CA",
+          "addressCountry": "USA",
+          "streetAddress": "25542 Jeronimo Rd. #3",
+          "addressLocality": "Mission Viejo"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "telephone": "(949) 457-0223",
+          "areaServed": [
+            "US",
+            "CA"
+          ]
+        }
+      ],
+      "image": {
+        "@type": "ImageObject",
+        "name": "justSMILE Dental Clinic",
+        "creator": "Dr Rammo",
+        "author": "justSMILE",
+        "contentLocation": "NSW",
+        "description": "Image of Dr Rammo in his cosmetic dentistry office",
+        "url": "https://justsmileau.b-cdn.net/wp-content/uploads/2013/12/consult_0016.jpg"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "name": "justSMILE Dental Clinic",
+        "postalCode": [
+          "2025",
+          "2217"
+        ],
+        "latitude": "-33.9",
+        "longitude": "151.2",
+        "description": "Our office location can be found here."
+      },
+      "founder": [
+        {
+          "@type": "Person",
+          "description": "Dr Rammo is an experienced dentist with special expertise in general and cosmetic dentistry. He and his team work with modern procedures and advanced dental technology to provide some of the top-rated cosmetic dental treatments and services, including teeth straightening, teeth whitening, tooth replacement and repair, and much more.",
+          "jobTitle": "Owner",
+          "alternateName": "Abir Rammo",
+          "potentialAction": {
+            "@id": "https://www.justsmile.com.au/contact/"
+          },
+          "workLocation": "https://www.justsmile.com.au/",
+          "telephone": [
+            "+02 9529 7555",
+            "+02 9387 1710"
+          ],
+          "familyName": "Dr Abir Rammo",
+          "url": "https://www.justsmile.com.au/",
+          "gender": "Male",
+          "name": "Dr Rammo Cosmetic Dentist",
+          "image": "https://justsmileau.b-cdn.net/wp-content/uploads/2013/12/amin_smile.jpg",
+          "worksFor": "https://www.justsmile.com.au/",
+          "givenName": "Abir Rammo",
+          "knowsLanguage": "en",
+          "memberOf": {
+            "@type": "Organization",
+            "name": "Austrailian Dental Association",
+            "@id": "https://www.google.com/search?q=Australian+Dental+Association+NSW+Branch&kponly&kgmid=/g/1thl5lbc",
+            "url": "https://www.ada.org.au/",
+            "sameAs": [
+              "https://www.google.com/search?q=Australian+Dental+Association+(QLD+Branch)&kponly&kgmid=/g/1pv2l313j",
+              "https://www.google.com/search?q=Australian+Dental+Association+SA&kponly&kgmid=/g/1tffpgv5",
+              "https://www.google.com/search?q=Australian+Dental+Association+Victorian+Branch+Inc.&kponly&kgmid=/g/1tp2_j9k",
+              "https://en.wikipedia.org/wiki/Dentistry",
+              "http://productontology.org/id/Dentistry"
+            ]
+          },
+          "additionalType": [
+            "http://en.wikipedia.org/wiki/Dentistry",
+            "http://en.wikipedia.org/wiki/Cosmetic_dentistry",
+            "http://en.wikipedia.org/wiki/Tooth",
+            "http://en.wikipedia.org/wiki/Smile",
+            "http://en.wikipedia.org/wiki/Mouth",
+            "http://en.wikipedia.org/wiki/Oral_hygiene",
+            "http://en.wikipedia.org/wiki/Teeth_cleaning",
+            "http://en.wikipedia.org/wiki/Dental_extraction",
+            "http://en.wikipedia.org/wiki/Oral_and_maxillofacial_surgery",
+            "http://en.wikipedia.org/wiki/Dental_braces",
+            "http://en.wikipedia.org/wiki/Veneer_(dentistry)",
+            "http://en.wikipedia.org/wiki/Dental_implant",
+            "http://en.wikipedia.org/wiki/Tooth_whitening",
+            "http://en.wikipedia.org/wiki/Dental_restoration",
+            "http://en.wikipedia.org/wiki/Gums",
+            "http://en.wikipedia.org/wiki/Crown_(dentistry)",
+            "http://en.wikipedia.org/wiki/Dentures",
+            "http://en.wikipedia.org/wiki/Mouthguard",
+            "http://en.wikipedia.org/wiki/Laser",
+            "http://productontology.org/id/Dentistry",
+            "http://productontology.org/id/Cosmetic_dentistry",
+            "http://productontology.org/id/Tooth",
+            "http://productontology.org/id/Smile",
+            "http://productontology.org/id/Mouth",
+            "http://productontology.org/id/Oral_hygiene",
+            "http://productontology.org/id/Teeth_cleaning",
+            "http://productontology.org/id/Dental_extraction",
+            "http://productontology.org/id/Oral_and_maxillofacial_surgery",
+            "http://productontology.org/id/Dental_braces",
+            "http://productontology.org/id/Veneer_(dentistry)",
+            "http://productontology.org/id/Dental_implant",
+            "http://productontology.org/id/Tooth_whitening",
+            "http://productontology.org/id/Dental_restoration",
+            "http://productontology.org/id/Gums",
+            "http://productontology.org/id/Crown_(dentistry)",
+            "http://productontology.org/id/Dentures",
+            "http://productontology.org/id/Mouthguard",
+            "http://productontology.org/id/Laser"
+          ],
+          "mainEntityOfPage": "https://www.google.com/search?q=justSMILE+Ramsgate&kponly&kgmid=/g/1tcz_pcc",
+          "sameAs": [
+            "https://www.facebook.com/justsmileramsgate/",
+            "https://twitter.com/justSMILENSW",
+            "https://www.instagram.com/JustSMILE_Dental/",
+            "https://www.youtube.com/channel/UCLgsGngPZBnt8fRKDSvjGOg",
+            "https://healthengine.com.au/dentist/nsw/ramsgate-beach/just-smile/s37832",
+            "https://www.dentist.com.au/dentist-detail/just-smile/A11004115",
+            "https://www.yellowpages.com.au/nsw/ramsgate-beach/just-smile-15363017-listing.html"
+          ],
+          "knowsAbout": [
+            "Denistry",
+            "Cosmetic dentistry",
+            "General dentistry",
+            "Childrens dental",
+            "Family dentist",
+            "Dental implants",
+            "Braces",
+            "Invisalign",
+            "Laser dentistry",
+            "Zoom Philips",
+            "Teeth whitening",
+            "Tooth replacement",
+            "Dental crowns",
+            "Bridges",
+            "Veneers",
+            "Mouthguards",
+            "Aligners",
+            "Teeth straighteners",
+            "Dentofacial aesthetics",
+            "Wrinkle treatments",
+            "Lip fillers",
+            "Gum reduction",
+            "Gummy smile",
+            "Fillings",
+            "Dentures",
+            "Inlays",
+            "Onlays",
+            "Oral health",
+            "Oral hygiene",
+            "Gum disease",
+            "Bruxism",
+            "Toothaches",
+            "Dental decay"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "justSMILE Dental Clinic, NSW",
+            "@id": "https://www.justsmile.com.au/",
+            "additionalType": "https://en.wikipedia.org/wiki/Cosmetic_dentistry",
+            "url": "https://www.justsmile.com.au/",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": [
+                  {
+                    "@type": "Service",
+                    "name": "General Dentistry in NSW",
+                    "@id": "https://www.justsmile.com.au/general-dentistry/",
+                    "url": "https://www.justsmile.com.au/general-dentistry/",
+                    "description": "If you are interested in an general dentistry procedures or treatments, talk to us. We are a top general dentistry in NSW, and we offer a wide range of general dental treatments for oral health and dentofacial aesthetics."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentistry in NSW",
+                    "@id": "https://www.justsmile.com.au/cosmetic-dentistry/",
+                    "url": "https://www.justsmile.com.au/cosmetic-dentistry/",
+                    "description": "If you are interested in cosmetic dentistry procedures or treatments, talk to us. We are a top cosmetic dentistry in NSW, and we offer a wide range of cosmetic dental treatments including teeth straightening, teeth whitening, teeth repair and restoration, laser dentistry, and more."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Porcelain Veneers in NSW",
+                    "@id": "https://www.justsmile.com.au/veneers/",
+                    "url": "https://www.justsmile.com.au/veneers/",
+                    "description": "If you are interested in porcelain veneers and application, talk to us. We are a top cosmetic dentistry in NSW offering veneers and a wide range of other dental procedures and treatments for repairing, straightening, and whitening teeth to create bright, perfect smiles."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Zoom Teeth Whitening in NSW",
+                    "@id": "https://www.justsmile.com.au/zoom-teeth-whitening/",
+                    "url": "https://www.justsmile.com.au/zoom-teeth-whitening/",
+                    "description": "If you are interested in Zoom teeth whitening dental procedures, talk to us. We are a top cosmetic dentistry in NSW offering a wide range of laser dentistry and teeth whitening treatments, and we have a great Zoom whitening option available for you to whiten your smile."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Tooth Coloured Fillings in NSW",
+                    "@id": "https://www.justsmile.com.au/tooth-coloured-fillings/",
+                    "url": "https://www.justsmile.com.au/tooth-coloured-fillings/",
+                    "description": "If you are experiencing tooth decay or are in need of a tooth filling, talk to us. We are a top general dentistry in NSW, and we offer a wide range of dental treatments and procedures including tooth coloured fillings. We can help you restore and repair your teeth and smile."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Inlays and Onlays in NSW",
+                    "@id": "https://www.justsmile.com.au/inlays-onlays/",
+                    "url": "https://www.justsmile.com.au/inlays-onlays/",
+                    "description": "If you have experienced damaged, chipped, or broken teeth, talk to us. We are a top general dentistry in NSW, and we offer a wide range of tooth repair and restoration treatments and options including inlays and onlays for damaged teeth. Let us repair your smile with our inlays and onlays."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Dental Crowns and Bridges in NSW",
+                    "@id": "https://www.justsmile.com.au/crowns-bridges/",
+                    "url": "https://www.justsmile.com.au/crowns-bridges/",
+                    "description": "If you are interested in dental crowns or dental bidges, talk to us. We are a top cosmetic dentistry in NSW, and we offer a wide range of dental procedures and treatments for correcting and staightening teeth. We can offer you great dental crowns and bridges to restore or shape your smile."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Dentofacial Aesthetics",
+                    "@id": "https://www.justsmile.com.au/dentofacial-aesthetics/",
+                    "url": "https://www.justsmile.com.au/dentofacial-aesthetics/",
+                    "description": "If you are interested in any dentofacial aesthetics procedures or treatments, talk to us. We are a top cosmetic dentistry in NSW, and we offer a wide range of dentofacial aesthetic options including wrinkle treatments, lip fillers, gum reduction, and more."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Wrinkle Treatments",
+                    "@id": "https://www.justsmile.com.au/wrinkle-treatments/",
+                    "url": "https://www.justsmile.com.au/wrinkle-treatments/",
+                    "description": "If you are interested in a wrinkle treatment to soften your smile, talk to us. We are a top cosmetic dentistry in NSW, and we offer a wide range of dentofacial aesthetics treatments, including wrinkle treatments. We can provide some of the top-rated wrinkle treatments to soften and improve smiles."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Lip Fillers/Enhancements in NSW",
+                    "@id": "https://www.justsmile.com.au/lip-fillerslip-enhancement/",
+                    "url": "https://www.justsmile.com.au/lip-fillerslip-enhancement/",
+                    "description": "If you are interested in lip fillers or lip enhancements to improve your smile, talk to us. We are a top cosmetic dentistry in NSW, and we offer a wide range of dentofacial aesthetics treatments, including lip fillers and lip enhancement treatements. We can offer some of the top-rated lip fillers to shape and improve smiles."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Gummy Smile Correction in NSW",
+                    "@id": "https://www.justsmile.com.au/gummy-smile/",
+                    "url": "https://www.justsmile.com.au/gummy-smile/",
+                    "description": "If you are interested in gum reduction or gummy smile correction, talk to us. We are a top cosmetic dentistry in NSW, and we offer a wide range of dentofacial aesthetics and laser dentistry treatments including gum reduction or gummy smile correction. We can help you improve your smile today."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Anxious Patients Dentistry in NSW",
+                    "@id": "https://www.justsmile.com.au/anxious-patients/",
+                    "url": "https://www.justsmile.com.au/anxious-patients/",
+                    "description": "If you are needing dental work but are anxious about visiting the dentist, talk to us. We are a top general dentistry in NSW, and our dental procedures are pain-free, making visits to the dentist much easier for anxious patients. We are here to provide the dental treatments you need without the pain."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Wisdom Tooth Extractions in NSW",
+                    "@id": "https://www.justsmile.com.au/wisdom-tooth-extractions/",
+                    "url": "https://www.justsmile.com.au/wisdom-tooth-extractions/",
+                    "description": "If you are in need of a wisdom tooth extraction, talk to us. We are a top general dentistry in NSW, and we offer a wide range of dental treatments and procedures including wisdom teeth removal. We can help with your wisdom tooth extractions and any other dental work you need."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Preventive Dentistry in NSW",
+                    "@id": "https://www.justsmile.com.au/preventive-dentistry/",
+                    "url": "https://www.justsmile.com.au/preventive-dentistry/",
+                    "description": "If you are in need of dental procedures to protect your oral health, talk to us. We are a top general dentistry in NSW, and we offer a range of preventive dental treatments to protect and restore your oral health and oral hygiene. We can help you prevent tooth decay and damage and can help you protect your smile."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Diet & Dental Decay in NSW",
+                    "@id": "https://www.justsmile.com.au/diet-decay/",
+                    "url": "https://www.justsmile.com.au/diet-decay/",
+                    "description": "If you are looking for help to repair or prevent tooth decay, talk to us. We are a top general dentistry in NSW, and we offer a wide range of preventive dental treatments to protect against tooth decay and restore decayed or damaged teeth. We can help you prevent tooth decay and protect your oral health."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Mouth Guards in NSW",
+                    "@id": "https://www.justsmile.com.au/mouth-guards/",
+                    "url": "https://www.justsmile.com.au/mouth-guards/",
+                    "description": "If you play rough sports or are in need of mouth guards, talk to us. We are a top family dentistry in NSW, and we offer a wide range of dental treatments, procedures, technology, and products including helping you find mouthguards. We can help you protect your teeth and your smile."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Night Guards in NSW",
+                    "@id": "https://www.justsmile.com.au/night-guards/",
+                    "url": "https://www.justsmile.com.au/night-guards/",
+                    "description": "If you suffer from bruxism or grinding your teeth while asleep or awake due to stress, talk to us. We are a top general dentistry in NSW, and we offer a wide range of dental procedures and treatments including helping you find night guards to protect your teeth from damage caused by bruxism."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Childrens Dental Care in NSW",
+                    "@id": "https://www.justsmile.com.au/childrens-dentist",
+                    "url": "https://www.justsmile.com.au/childrens-dentist",
+                    "description": "If you have a child in need of dental work, talk to us. We are a top family dentistry in NSW, and we offer a wide range of dental services and treatments for all kinds of patients, including children. We can offer your child great, pain-free dental care and protect their smiles."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Laser Dentistry in NSW",
+                    "@id": "https://www.justsmile.com.au/laser-dentistry/",
+                    "url": "https://www.justsmile.com.au/laser-dentistry/",
+                    "description": "If you are in need of laser dental work, talk to us. We are a top cosmetic dentistry in NSW, and we offer a wide range of laser dentistry services and treatments, including whitening, gum reduction, and more. We can provide some of the top-rated laser dental procedures and improve smiles."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Emergency Dentistry in NSW",
+                    "@id": "https://www.justsmile.com.au/dental-emergencies/",
+                    "url": "https://www.justsmile.com.au/dental-emergencies/",
+                    "description": "If you are in need of urgent dental care or an emergency appointment with a dentist, talk to us. We are a top dentistry in NSW, and we offer emergency dental appointments for patients with severe toothaches, broken or chipped teeth, lost fillings, or any other dental emergency. Let us help and provide relief."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Dental Implants in NSW",
+                    "@id": "https://www.justsmile.com.au/dental-implants/",
+                    "url": "https://www.justsmile.com.au/dental-implants/",
+                    "description": "If you are in need of dental implants or tooth replacement, talk to us. We are a top general dentistry in NSW, and we offer a wide range of dental and tooth replacement options including dental implants. If you need one tooth or multiple teeth replaced, we can help! We provide the top-rated dental implants."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Singular Tooth Replacement in NSW",
+                    "@id": "https://www.justsmile.com.au/singular-tooth-replacement/",
+                    "url": "https://www.justsmile.com.au/singular-tooth-replacement/",
+                    "description": "If you are in need of dental implants or a singular tooth replacement, talk to us. We are a top cosmetic dentistry in NSW, and we offer many dental and tooth replacement services including singular tooth replacement. If you have a lost or badly damaged tooth, we can replace it and repair your smile."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Multiple Tooth Replacement in NSW",
+                    "@id": "https://www.justsmile.com.au/multiple-tooth-replacement/",
+                    "url": "https://www.justsmile.com.au/multiple-tooth-replacement/",
+                    "description": "If you are in need of a multiple teeth replacement or dental implants, talk to us. We are a top cosmetic dentistry in NSW, and we offer many dental and tooth replacement procedures including multiple tooth replacement. If you have lost or damaged teeth or tooth gaps, we can replace the teeth and repair your smile."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Invisible Braces in NSW",
+                    "@id": "https://www.justsmile.com.au/invisible-braces/",
+                    "url": "https://www.justsmile.com.au/invisible-braces/",
+                    "description": "If you are in need of braces or Invisalign clear aligners invisible braces, talk to us. We are a top cosmetic dentistry in NSW, and we offer several great options for teeth straightening, including Invisalign invisible braces. We provide some of the top-rated options for teeth straightening and braces."
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentist in Sutherland Shire NSW",
+                    "@id": "https://www.justsmile.com.au/sutherland-shire/",
+                    "url": "https://www.justsmile.com.au/sutherland-shire/",
+                    "description": "If you are looking for a great dental clinic in Sutherland Shire, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Sutherland Shire patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentist in Waverley NSW",
+                    "@id": "https://www.justsmile.com.au/waverley",
+                    "url": "https://www.justsmile.com.au/waverley",
+                    "description": "If you are looking for a great dental clinic in Waverley, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Waverley patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentistry in Bellevue Hill NSW",
+                    "@id": "https://www.justsmile.com.au/bellevue-hill",
+                    "url": "https://www.justsmile.com.au/bellevue-hill",
+                    "description": "If you are looking for a great dental clinic in Bellevue Hill, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Bellevue Hill patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentistry in Ramsgate Beach NSW",
+                    "@id": "https://www.justsmile.com.au/ramsgate-beach/",
+                    "url": "https://www.justsmile.com.au/ramsgate-beach/",
+                    "description": "If you are looking for a great dental clinic in Ramsgate Beach, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Ramsgate Beach patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentistry in Woollahra NSW",
+                    "@id": "https://www.justsmile.com.au/woollahra/",
+                    "url": "https://www.justsmile.com.au/woollahra/",
+                    "description": "If you are looking for a great dental clinic in Woollahra, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Woollahra patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dental Clinic in Surry Hills NSW",
+                    "@id": "https://www.justsmile.com.au/surry-hills",
+                    "url": "https://www.justsmile.com.au/surry-hills",
+                    "description": "If you are looking for a great dental clinic in Surry Hills, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Surry Hills patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dental Clinic in Hurstville NSW",
+                    "@id": "https://www.justsmile.com.au/hurstville/",
+                    "url": "https://www.justsmile.com.au/hurstville/",
+                    "description": "If you are looking for a great dental clinic in Hurstville, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Hurstville patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentist in Rockdale NSW",
+                    "@id": "https://www.justsmile.com.au/dentist-rockdale/",
+                    "url": "https://www.justsmile.com.au/dentist-rockdale/",
+                    "description": "If you are looking for a great dental clinic in Rockdale, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Rockdale patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Cosmetic Dentist in Kogarah NSW",
+                    "@id": "https://www.justsmile.com.au/kogarah/",
+                    "url": "https://www.justsmile.com.au/kogarah/",
+                    "description": "If you are looking for a great dental clinic in Kogarah, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Kogarah patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Family and Cosmetic Dental Practice in Bondi and Bondi Beach NSW",
+                    "@id": "https://www.justsmile.com.au/bondi",
+                    "url": "https://www.justsmile.com.au/bondi",
+                    "description": "If you are looking for a great dental clinic in Bondi and Bondi Beach, NSW, check out justSMILE! We are a top cosmetic dentistry and general dental clinic, and we are here to help Bondi and Bondi Beach patients with all their dental needs. Contact us today to book your appointment with us!"
+                  },
+                  {
+                    "@type": "WebSite",
+                    "publisher": {
+                      "@id": "https://www.google.com/search?q=justSMILE+Ramsgate&kponly&kgmid=/g/1tcz_pcc"
+                    },
+                    "name": "justSMILE Dental Clinic | Cosmetic Dentist | General Dentistry | Dental Technology",
+                    "@id": "https://www.justsmile.com.au/#website",
+                    "url": "https://www.justsmile.com.au/",
+                    "keywords": "cosmetic dentistry, dental clinic, general practice, dentist, tooth, smile, teeth, dental crowns, whitening, implants, fillings, invisalign, aligners, braces, oral hygiene, dental health, wisdom tooth, treatment, veneers, inlays, onlays, periodontology, periodontal, cavities, tooth decay, dentures, root canal, enamel, retainer, orthodontics, dentistry",
+                    "about": [
+                      {
+                        "@type": "thing",
+                        "name": "teeth",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth",
+                          "https://www.google.com/search?q=teeth&kgmid=/m/0cnxs6x"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dentist",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dentistry",
+                          "https://www.google.com/search?q=dentist&kgmid=/m/0277g"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dentistry",
+                          "https://www.google.com/search?q=dental&kgmid=/m/0277g"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "cosmetic dentistry",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Cosmetic_dentistry",
+                          "https://www.google.com/search?q=cosmetic+dentistry&kgmid=/m/0czdf7w"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "smile",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Smile",
+                          "https://www.google.com/search?q=smile&kgmid=/m/019nj4"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "tooth",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth",
+                          "https://www.google.com/search?q=tooth&kgmid=/m/0cnxs6x"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "crowns",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Crown_(dentistry)",
+                          "https://www.google.com/search?q=crowns&kgmid=/m/04v10x"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "patients",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Patient",
+                          "https://www.google.com/search?q=patients&kgmid=/m/028hfb"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "braces",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_braces",
+                          "https://www.google.com/search?q=braces&kgmid=/m/03nclr"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "veneers",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Veneer_(dentistry)",
+                          "https://www.google.com/search?q=veneers&kgmid=/m/080xy2"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "whitening",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth_whitening",
+                          "https://www.google.com/search?q=whitening&kgmid=/m/04b7wk"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "oral health",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dentistry",
+                          "https://www.google.com/search?q=oral+health&kgmid=/m/0277g"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "implants",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_implant",
+                          "https://www.google.com/search?q=implants&kgmid=/m/047kyd"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental care",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Oral_hygiene",
+                          "https://www.google.com/search?q=dental+care&kgmid=/m/03h01bs"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "fillings",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_restoration",
+                          "https://www.google.com/search?q=fillings&kgmid=/m/04419y"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "teeth whitening",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth_whitening",
+                          "https://www.google.com/search?q=teeth+whitening&kgmid=/m/04b7wk"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "invisalign",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Clear_aligners",
+                          "https://www.google.com/search?q=invisalign&kgmid=/m/04_55p"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "mouth",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Mouth",
+                          "https://www.google.com/search?q=mouth&kgmid=/m/0283dt1"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental implants",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_implant",
+                          "https://www.google.com/search?q=dental+implants&kgmid=/m/047kyd"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "oral hygiene",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Oral_hygiene",
+                          "https://www.google.com/search?q=oral+hygiene&kgmid=/m/03h01bs"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "health",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Health",
+                          "https://www.google.com/search?q=health&kgmid=/m/0kt51"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "tooth extraction",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_extraction",
+                          "https://www.google.com/search?q=tooth+extraction&kgmid=/m/07lny3"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "porcelain",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Porcelain",
+                          "https://www.google.com/search?q=porcelain&kgmid=/m/016f4d"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "treatment",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Therapy",
+                          "https://www.google.com/search?q=treatment&kgmid=/m/03c1dkx"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "general practice",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/General_practice",
+                          "https://www.google.com/search?q=general+practice&kgmid="
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "wisdom teeth",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Wisdom_tooth",
+                          "https://www.google.com/search?q=wisdom+teeth&kgmid=/m/02ccyf"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "pain",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Pain",
+                          "https://www.google.com/search?q=pain&kgmid=/m/062t2"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "ramsgate",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Ramsgate",
+                          "https://www.google.com/search?q=ramsgate&kgmid=/m/01vzcp"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "ramsgate beach",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Ramsgate_Beach,_New_South_Wales",
+                          "https://www.google.com/search?q=ramsgate+beach&kgmid=/m/082d2b"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "sans souci",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Sans_Souci,_New_South_Wales",
+                          "https://www.google.com/search?q=sans+souci&kgmid=/m/06gpn_"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "bondi junction",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Bondi_Junction,_New_South_Wales",
+                          "https://www.google.com/search?q=bondi+junction&kgmid=/m/02j989"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "edgecliff",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Edgecliff,_New_South_Wales",
+                          "https://www.google.com/search?q=edgecliff&kgmid=/m/07mz18"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "woollahra",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Woollahra,_New_South_Wales",
+                          "https://www.google.com/search?q=woollahra&kgmid=/m/054lg3"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "five dock",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Five_Dock,_New_South_Wales",
+                          "https://www.google.com/search?q=five+dock&kgmid=/m/06njk6"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dds",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_degree",
+                          "https://www.google.com/search?q=dds&kgmid=/m/05h9ml"
+                        ]
+                      }
+                    ],
+                    "mentions": [
+                      {
+                        "@type": "thing",
+                        "name": "periodontology",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Periodontology",
+                          "https://www.google.com/search?q=periodontology&kgmid=/m/06_9v6"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "veneer",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Veneer_(dentistry)",
+                          "https://www.google.com/search?q=veneer&kgmid=/m/080xy2"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "periodontal",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Periodontology",
+                          "https://www.google.com/search?q=periodontal&kgmid=/m/06_9v6"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "false teeth",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dentures",
+                          "https://www.google.com/search?q=false+teeth&kgmid=/m/02zb48"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "root canal",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Root_canal_treatment",
+                          "https://www.google.com/search?q=root+canal&kgmid=/m/09gbthq"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental veneers",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Veneer_(dentistry)",
+                          "https://www.google.com/search?q=dental+veneers&kgmid=/m/080xy2"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "cavities",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth_decay",
+                          "https://www.google.com/search?q=cavities&kgmid=/m/025j63"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "enamel shaping",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Cosmetic_dentistry",
+                          "https://www.google.com/search?q=enamel+shaping&kgmid=/m/0czdf7w"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "oral health",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dentistry",
+                          "https://www.google.com/search?q=oral+health&kgmid=/m/0277g"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "enamel",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth_enamel",
+                          "https://www.google.com/search?q=enamel&kgmid=/m/01tp3m"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "cosmetic dental",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Cosmetic_dentistry",
+                          "https://www.google.com/search?q=cosmetic+dental&kgmid=/m/0czdf7w"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental braces",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_braces",
+                          "https://www.google.com/search?q=dental+braces&kgmid=/m/03nclr"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "artificial teeth",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dentures",
+                          "https://www.google.com/search?q=artificial+teeth&kgmid=/m/02zb48"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental hygiene",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Oral_hygiene",
+                          "https://www.google.com/search?q=dental+hygiene&kgmid=/m/03h01bs"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "retainer",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Retainer_(orthodontics)",
+                          "https://www.google.com/search?q=retainer&kgmid=/m/02x9sk"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "whiten teeth",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth_whitening",
+                          "https://www.google.com/search?q=whiten+teeth&kgmid=/m/04b7wk"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "porcelain veneers",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Veneer_(dentistry)",
+                          "https://www.google.com/search?q=porcelain+veneers&kgmid=/m/080xy2"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental crown",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Crown_(dentistry)",
+                          "https://www.google.com/search?q=dental+crown&kgmid=/m/04v10x"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "crown",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Crown_(dentistry)",
+                          "https://www.google.com/search?q=crown&kgmid=/m/04v10x"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental implants",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_implant",
+                          "https://www.google.com/search?q=dental+implants&kgmid=/m/047kyd"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "oral hygiene",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Oral_hygiene",
+                          "https://www.google.com/search?q=oral+hygiene&kgmid=/m/03h01bs"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "fillings",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_restoration",
+                          "https://www.google.com/search?q=fillings&kgmid=/m/04419y"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "whitening",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Tooth_whitening",
+                          "https://www.google.com/search?q=whitening&kgmid=/m/04b7wk"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "dental restoration",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dental_restoration",
+                          "https://www.google.com/search?q=dental+restoration&kgmid=/m/04419y"
+                        ]
+                      },
+                      {
+                        "@type": "thing",
+                        "name": "general dentistry",
+                        "sameAs": [
+                          "http://en.wikipedia.org/wiki/Dentistry",
+                          "https://www.google.com/search?q=general+dentistry&kgmid=/m/0277g"
+                        ]
+                      }
+                    ],
+                    "hasPart": [
+                      {
+                        "@id": "https://www.justsmile.com.au/contact/#contact"
+                      },
+                      {
+                        "@id": "https://www.justsmile.com.au/practice/#about"
+                      },
+                      {
+                        "@id": "https://www.justsmile.com.au/blog/#blog"
+                      },
+                      {
+                        "@id": "https://www.justsmile.com.au/faqs/#faq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
