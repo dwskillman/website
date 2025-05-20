@@ -21,3 +21,29 @@ Step 1:
 📎 Support asset uploads (e.g., image replacements)
 📇 Need dynamic directory for reviewers (SME, Legal, IDM)
 🧩 Improve tagging for Break/Fix vs. Maintenance
+
+__________________
+__________________
+
+🟨 Step 2: Acknowledge Receipt
+👤 Role: Maintenance Team (MT)
+📝 Action: Review CUP entry and acknowledge receipt to initiate processing
+
+📌 What’s Required
+
+👀 Review the CUP entry for completeness and clarity
+📄 Use the change log to verify what edits are being requested
+🤝 Coordinate with aligned CM if any information is unclear or incomplete
+🔔 Optional: Notify L&D resources or Teams for awareness of new entries
+🕒 Timing
+
+SLA: 2 business days
+📤 Output
+
+✅ CUP entry acknowledged
+🔄 Ready for disposition (accept/decline)
+⚙️ Process Notes
+
+Each MT member is aligned by program/client manager
+Notification system could be enhanced (e.g., Teams alert or L&D queue)
+Acknowledgment step ensures entries don’t stall or go untriaged
