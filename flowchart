@@ -1,0 +1,23 @@
+Step 1:
+
+🟥 Step 1: CUP Entry Submitted
+👤 Role: Facilitator / Course Manager (CM)
+📝 Action: Submit CUP to request course or program updates
+
+📌 What’s Required
+
+🔗 Auto-link to course/program in CPU (if applicable)
+🧠 Clear, actionable, contextual changes
+🔁 Find/replace details (e.g., screenshots or terminology changes)
+👥 Identified reviewers, approvers, IDM
+🚦 Classify edits: Critical vs. Non-Critical
+📄 Output
+
+📝 Change Log — Free-form entry identifying edit location and needed changes
+⚙️ Process Notes
+
+📂 Change log should reference specific document (not just folder)
+💬 Allow contextual inline comments by submitter
+📎 Support asset uploads (e.g., image replacements)
+📇 Need dynamic directory for reviewers (SME, Legal, IDM)
+🧩 Improve tagging for Break/Fix vs. Maintenance
