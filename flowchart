@@ -47,3 +47,228 @@ SLA: 2 business days
 Each MT member is aligned by program/client manager
 Notification system could be enhanced (e.g., Teams alert or L&D queue)
 Acknowledgment step ensures entries don’t stall or go untriaged
+
+__________________
+__________________
+
+
+🟨 Step 3: Accept Request
+👤 Role: Maintenance Team (MT)
+📝 Action: Accept valid request, update CPU, and disposition any declined edits
+
+📌 What’s Required
+
+✅ Request must be validated as actionable and appropriate
+🧾 Update CPU to reflect accepted status
+✂️ Individually disposition edits that are declined (partial acceptance possible)
+🔍 Begin Break/Fix evaluation for accepted edits
+🕒 Timing
+
+SLA: 1 business day
+📤 Output
+
+🗂️ CPU reflects accepted status and edit-level dispositions
+🔄 Entry is prepared for Break/Fix vs. Maintenance determination
+⚙️ Process Notes
+
+Accepted entries may contain both Break/Fix and Maintenance edits
+Split-path processing may be triggered based on content type and urgency
+Partial declines must be clearly documented in CPU for traceability
+
+__________________
+__________________
+
+🟨 Step 4: Request Pre-Approvals
+👤 Role: Maintenance Team (MT)
+📝 Action: Request and obtain pre-approvals for maintenance-related changes
+
+📌 What’s Required
+
+📧 Initiate approval requests using standardized email templates
+👥 Identify and contact all required approvers, including:
+Sponsor Approvers
+SMEs
+Legal / Compliance
+Course Managers
+IDMs
+📂 Ensure change log and PMT entries are clear and actionable to reviewers
+🕒 Timing
+
+Estimated: ~8 business days (varies by response time)
+📤 Output
+
+✅ Required pre-approvals obtained
+📝 Change log and task plan ready for backlog submission
+⚙️ Process Notes
+
+Some requests (e.g., CAR/WIM or TOP) may not require pre-approvals upfront
+Reviewers must be identified early to prevent delays
+Approval tracking is manual — no automated workflow system in place
+Delays in approval can block progression to backlog creation
+
+__________________
+__________________
+
+🟩 Step 5: Backlog Created
+👤 Role: Maintenance Team (MT)
+📝 Action: Create backlog entry in PMT, upload changelog, and assign criticality
+
+📌 What’s Required
+
+🗂️ Submit backlog in PMT (either Break/Fix or Maintenance path)
+📄 Upload completed change log to the PMT entry
+🚦 Assign criticality to determine:
+Ad hoc processing for urgent issues
+Scheduled cycle for recurring reviews
+🕒 Timing
+
+Break/Fix Backlog: ~2 business days
+Maintenance Backlog: Variable (based on prior pre-approval timing)
+📤 Output
+
+📌 Backlog formally created in PMT
+🧾 Task plan confirmed (if Maintenance)
+🔄 Entry exits Pre-Intake and moves to processing stage
+⚙️ Process Notes
+
+PMT entry must be clear and actionable
+Break/Fix requests can be routed without approvals
+Maintenance requests must have all prior approvals completed
+Criticality informs downstream prioritization and delivery model
+
+__________________
+__________________
+
+🔷 Decision Point: Valid Request?
+🧩 Purpose: Determine if the CUP submission meets basic standards for clarity, context, and completeness
+
+📌 Evaluation Criteria
+
+✅ Is the request clear and actionable?
+🧠 Does the change log provide sufficient context (e.g., what needs to change and why)?
+📎 Are reviewers, approvers, and IDM included in the submission?
+📂 Is supporting content (e.g., screenshots or document references) properly attached?
+🔀 Outcomes
+
+Yes → Proceed to Step 3: Accept Request
+No → Decline the request and update CPU with rationale
+⚙️ Process Notes
+
+MT may need to contact the aligned CM if the request is incomplete or unclear
+Clear submissions reduce rework and streamline the path to backlog creation
+
+__________________
+__________________
+
+🔷 Decision Point: Break/Fix Eligible?
+🧩 Purpose: Determine if the requested edits qualify as Break/Fix and can be fast-tracked without approvals
+
+📌 Evaluation Criteria
+
+🛠️ Does the request involve minor updates that address an immediate need?
+❗ Does it correct typographical, functional, or content inaccuracies that impact performance?
+🚫 It must not include:
+New or revised instructional content
+Changes that alter meaning
+Sales Practice-related content
+🔀 Outcomes
+
+Yes → Proceed to Step 5A: Create Break/Fix Backlog
+No → Proceed to next decision: Is it Maintenance?
+⚙️ Process Notes
+
+A single CUP entry can contain both Break/Fix and Maintenance edits
+If separable, Break/Fix edits can proceed independently without impacting the broader request
+
+__________________
+__________________
+
+🔷 Decision Point: Is it Maintenance?
+🧩 Purpose: Determine whether the request qualifies as maintenance and should follow the approval-based maintenance workflow
+
+📌 Evaluation Criteria
+
+🔁 Is the request non-urgent and part of content that requires scheduled or ad hoc updates?
+📘 Does it involve revisions that go beyond minor fixes, such as instructional refinements or structural changes?
+📊 Is the content eligible for:
+Annual or bi-annual review (based on delivery volume)?
+Risk-required updates or sponsor-driven edits?
+🔀 Outcomes
+
+Yes → Proceed to Step 4: Request Pre-Approvals
+No → Classify, disposition, update CPU, and notify requester (exit process)
+⚙️ Process Notes
+
+Maintenance requests must be clearly tagged and routed to ensure alignment with review schedules and sponsor expectations
+Some entries that are not Break/Fix may still not qualify as Maintenance — these must be dispositioned and closed out
+
+__________________
+__________________
+
+🔷 Decision Point: Pre-Approvals Provided?
+🧩 Purpose: Confirm whether all required pre-approvals for the maintenance request have been received
+
+📌 Evaluation Criteria
+
+✅ Have all identified approvers responded (e.g., SME, Legal, Compliance, IDM)?
+📧 Were requests sent using standardized email templates?
+📂 Is the change log and PMT task plan complete and aligned with approvals?
+🔀 Outcomes
+
+Yes → Proceed to Step 5B: Create Maintenance Backlog
+No → Wait and follow up on outstanding approvals (loop until complete)
+⚙️ Process Notes
+
+Some exception cases (e.g., CAR/WIM, TOP) may allow post-maintenance approval
+Approval tracking is manual — proactive follow-up is critical to prevent delays
+All approvers must be clearly listed to initiate and verify pre-approval status
+
+__________________
+__________________
+
+🟨 Decline Request
+👤 Role: Maintenance Team (MT)
+📝 Action: Decline the CUP entry if it is not valid or actionable, and update the CPU with justification
+
+📌 What’s Required
+
+❌ Confirm the request does not meet criteria for clarity, context, or scope
+🗒️ Provide a clear reason for decline
+🖊️ Update the CPU to reflect the decline status
+🕒 Timing
+
+Included in Step 3 processing (1 business day total)
+📤 Output
+
+🧾 CPU reflects declined status
+📬 Requestor notified with explanation
+⚙️ Process Notes
+
+Declining without a reason is not permitted
+If the request is unclear but potentially valid, MT should coordinate with the aligned CM before declining
+Proper documentation ensures audit trail and request transparency
+
+__________________
+__________________
+
+🟨 Classify, Disposition & Update CPU
+👤 Role: Maintenance Team (MT)
+📝 Action: Finalize classification of the request, disposition it appropriately, update the CPU, and notify the requester
+
+📌 What’s Required
+
+🔍 Evaluate request type and determine it is neither Break/Fix nor Maintenance
+📄 Update CPU to reflect classification and disposition status
+📬 Notify the requestor of final resolution
+🕒 Timing
+
+Handled immediately after “Is it Maintenance?” decision (no specific SLA)
+📤 Output
+
+✅ CPU reflects non-actionable or out-of-scope classification
+✉️ Requestor is informed that the entry will not move forward
+⚙️ Process Notes
+
+Ensures all entries are formally closed out — not left in limbo
+Important for audit trails and transparency
+This path ends the Pre-Intake process for requests that do not qualify for either backlog type
