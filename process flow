@@ -1,0 +1,228 @@
+Excellent — below is a full set of **pop-up card layouts for Steps 7B through 11**, completing the **Processing & Publishing flow** in the same clear, modular format as previous steps.
+
+---
+
+### 🟨 **Step 7B: Apply Edits (with Pre-Approvals)**
+
+**👤 Role:** PV Team
+**📝 Action:** Apply content edits as described in the changelog if pre-approvals are in place
+
+#### 📌 **What’s Required**
+
+* ✅ Pre-approvals confirmed and attached
+* 📄 Changelog from MT, with clear and actionable edit instructions
+
+#### 🕒 **Timing**
+
+* SLA: **\~5 business days** (up to **\~9** if volume is high)
+
+#### 📤 **Output**
+
+* 📝 Content updated per changelog
+* 🔄 Moves forward to validation and publishing track
+
+#### ⚙️ **Process Notes**
+
+* No further stakeholder input needed at this stage
+* PV executes all scoped edits based on documented approvals
+
+---
+
+### 🟨 **Step 7C: Initiate Pre-Maintenance Review (No Approvals)**
+
+**👤 Role:** Maintenance Team (MT)
+**📝 Action:** Launch formal review process if pre-approvals were not provided earlier
+
+#### 📌 **What’s Required**
+
+* 🧾 PMT updated with review tracking details
+* 👥 Reviewers/approvers and PV contact assigned
+
+#### 🕒 **Timing**
+
+* SLA: **1 business day** to initiate
+
+#### 📤 **Output**
+
+* 📋 Entry enters review workflow
+* 🔄 Awaiting feedback from stakeholders
+
+#### ⚙️ **Process Notes**
+
+* Applies only to Maintenance routes where approvals were missing
+* MT is responsible for follow-up until all reviews are complete
+
+---
+
+### 🟨 **Step 7D: Send to PV After Pre-Maintenance Review**
+
+**👤 Role:** Maintenance Team (MT)
+**📝 Action:** Once all required reviews are complete, forward to PV for editing
+
+#### 📌 **What’s Required**
+
+* ✅ Confirm reviews/approvals are complete
+* 📄 Include changelog and documentation
+
+#### 🕒 **Timing**
+
+* Immediate routing (**0 business day delay**)
+
+#### 📤 **Output**
+
+* Entry routed to PV for edit application
+
+#### ⚙️ **Process Notes**
+
+* Mirrors Step 7A in structure but follows a Maintenance review path
+* No further edits should be made by stakeholders after this point
+
+---
+
+### 🟨 **Step 7E: Apply Edits (Post-Review)**
+
+**👤 Role:** PV Team
+**📝 Action:** Apply content edits after receiving approvals through pre-maintenance review
+
+#### 📌 **What’s Required**
+
+* 📄 Finalized changelog
+* 🧾 Clear edit scope as per reviewer feedback
+
+#### 🕒 **Timing**
+
+* SLA: **\~5 business days** (up to **\~9** with volume)
+
+#### 📤 **Output**
+
+* Edited content ready for packaging and stakeholder review
+
+#### ⚙️ **Process Notes**
+
+* Same operational requirements as 7B
+* Review-driven backlog entries follow this path
+
+---
+
+### 🟨 **Step 7F: Package Content for Review**
+
+**👤 Role:** Maintenance Team (MT)
+**📝 Action:** Format edited content and prepare it for legal, risk, or business stakeholder review
+
+#### 📌 **What’s Required**
+
+* 📂 Edited content in reviewable format
+* 🔍 Include reference to changelog and approvals
+
+#### 🕒 **Timing**
+
+* SLA: **1 business day**
+
+#### 📤 **Output**
+
+* Review-ready content package submitted
+* Stakeholder approval cycle begins
+
+#### ⚙️ **Process Notes**
+
+* Applies to Maintenance requests requiring high-level validation
+* Clear formatting ensures faster reviews
+
+---
+
+### 🟨 **Step 7G: Final Reviews and Approvals**
+
+**👤 Role:** Legal, Risk, Compliance, or Business Partners
+**📝 Action:** Conduct detailed content review, provide feedback or formal approval
+
+#### 📌 **What’s Required**
+
+* 📝 Review-ready content package
+* 📎 Documentation of prior steps, approvals, and edit intent
+
+#### 🕒 **Timing**
+
+* Typical range: **\~22–24 business days**
+
+#### 📤 **Output**
+
+* ✅ Final approval or documented feedback for additional revisions
+
+#### ⚙️ **Process Notes**
+
+* Timeline varies based on content type and stakeholder availability
+* Once complete, the entry is cleared for publishing prep
+
+---
+
+### 🟨 **Step 9A–9C: Final Processing & Request to Publish**
+
+**👤 Roles:** PV, DMT, MT
+**📝 Action:** Finalize and verify all content; initiate LOIS request to publish
+
+#### 📌 **What’s Required**
+
+* PV tests functionality of content (9A)
+* PV updates DMS, completes PMT, submits LOIS to HRSS (9B)
+* MT updates PMT history/status (9C)
+
+#### 🕒 **Timing**
+
+* Up to **\~9 business days**
+
+#### 📤 **Output**
+
+* 📬 LOIS submission to HRSS
+* 📂 Content fully validated and archived
+
+#### ⚙️ **Process Notes**
+
+* Ensures technical soundness and complete documentation
+* Formal transition from editing to publishing phase
+
+---
+
+### 🟩 **Step 10: Send to HRSS (LOIS Request)**
+
+**👤 Role:** PV Team
+**📝 Action:** Submit finalized content to HRSS via LOIS workflow
+
+#### 📌 **What’s Required**
+
+* ✅ All prior steps completed and documented
+* 📄 LOIS request prepared and submitted
+
+#### 📤 **Output**
+
+* 📨 HRSS receives request to publish
+* Entry leaves internal processing workflow
+
+#### ⚙️ **Process Notes**
+
+* Marks the end of content handling by MT/PV teams
+* No content changes permitted after this point
+
+---
+
+### 🟩 **Step 11: Content Published**
+
+**👤 Role:** HRSS
+**📝 Action:** HRSS publishes the final content to the “Develop You” platform
+
+#### 📌 **What’s Required**
+
+* 🟩 LOIS request submission
+* 📑 Finalized, validated content package
+
+#### 🕒 **Timing**
+
+* SLA: **2 business days**
+
+#### 📤 **Output**
+
+* 🟢 Content live in Develop You
+* 🧾 Workflow complete
+
+---
+
+Let me know if you'd like all these packaged into a downloadable card set, visual chart, or linked swimlane layout.
